@@ -1,0 +1,23 @@
+﻿<Window x:Class="bpache.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="bpache Webserver v0.2b" Height="324" Width="201" Closing="Window_Closing" ResizeMode="NoResize">
+    <Grid Height="294" Width="179">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="144*" />
+            <RowDefinition Height="150*" />
+        </Grid.RowDefinitions>
+        <Button Content="Start" Height="23" HorizontalAlignment="Left" Margin="12,55,0,0" Name="buttonStart" VerticalAlignment="Top" Width="75" Click="Click_buttonStart" />
+        <Button Content="Stop" Height="23" HorizontalAlignment="Right" Margin="0,55,11,0" Name="buttonStop" VerticalAlignment="Top" Width="75" Click="Click_buttonStop" />
+        <Label Content="Steuerung" Height="37" Margin="12,12,32,0" Name="label1" VerticalAlignment="Top" FontSize="16" />
+        <Label Content="Status" Height="28" Margin="12,19,12,0" Name="label3" VerticalAlignment="Top" FontSize="16" Grid.Row="1" />
+        <Button Content="Einstellungen" Height="23" HorizontalAlignment="Left" Margin="12,84,0,0" Name="buttonEinstellungen" VerticalAlignment="Top" Width="156" Click="Click_buttonEinstellungen" />
+        <Button Content="Ereignisprotokoll" Height="23" HorizontalAlignment="Left" Margin="12,113,0,0" Name="buttonProtokoll" VerticalAlignment="Top" Width="156" Click="Click_buttonProtokoll" />
+        <Label Content="Webserver" Height="28" HorizontalAlignment="Left" Margin="12,53,0,0" Name="labelWebserver" VerticalAlignment="Top" Grid.Row="1" />
+        <Label Content="Port" HorizontalAlignment="Left" Margin="12,102,0,20" Name="labelPort" Grid.Row="1" />
+        <Label Content="Adresse" Height="28" HorizontalAlignment="Left" Margin="12,0,0,44" Name="labelAddress" VerticalAlignment="Bottom" Grid.Row="1" />
+        <Label Content="Status" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="70,53,0,69" Name="labelWebserverStatus" Width="97" Grid.Row="1" />
+        <Label Content="Status" Height="28" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="70,102,0,0" Name="labelPortStatus" VerticalAlignment="Top" Width="98" Grid.Row="1" />
+        <Label Content="Status"  HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="70,78,0,44" Name="labelAddressStatus" FontWeight="Normal" FontStyle="Normal" Width="97" Grid.Row="1" />
+    </Grid>
+</Window>

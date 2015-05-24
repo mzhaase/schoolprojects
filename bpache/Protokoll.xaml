@@ -1,0 +1,8 @@
+﻿<Window x:Class="bpache.Protokoll"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ereignisprotokoll" Height="324" Width="500" ResizeMode="CanResize" ShowInTaskbar="False" SizeToContent="Manual">
+    <Grid>
+        <TextBox Name="textBox1" Height="Auto" Width="Auto" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" VerticalScrollBarVisibility="Visible" IsReadOnly="True" Text="" DataContext="{Binding}" TextWrapping="WrapWithOverflow" />
+    </Grid>
+</Window>
