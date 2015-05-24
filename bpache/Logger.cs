@@ -31,8 +31,7 @@ namespace bpache
         private Logger()
         {
             // Zuweisung der Variablen für Protkoll und Dateizugriff
-            //_log = new List<string>();
-        	logFile = new StreamWriter("./access.log");
+            logFile = new StreamWriter("./access.log");
             update = false;
         }
         
