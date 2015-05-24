@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="bpache.App" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bpache.Einstellungen">
+    <Position X="5.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAAAAAAAkAAAAAAAAAAAA=</HashCode>
+      <FileName>Einstellungen.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bpache.Logger">
+    <Position X="0.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAcAAAAAAAAAAAAAABAACAAQAAAEAAAAAAAAAACEAAA=</HashCode>
+      <FileName>Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bpache.MainWindow">
+    <Position X="2.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAEAgAAAAAAIBAAAAAAgIAAAAAAAAAAAAAEQAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bpache.Protokoll">
+    <Position X="1" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAA=</HashCode>
+      <FileName>Protokoll.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bpache.Recv">
+    <Position X="5.5" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICAACAQAAAAAAABAAIAAAAgAIAgABgAAAAA=</HashCode>
+      <FileName>Recv.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bpache.Properties.Resources" Collapsed="true">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bpache.Properties.Settings">
+    <Position X="3" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAIAAAAAABAAgAAAgCACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
